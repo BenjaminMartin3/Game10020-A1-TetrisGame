@@ -14,6 +14,7 @@ public class UIController : MonoBehaviour
     {
         scoreText.text = $"SCORE: {tetrisManager.score}"; 
     }
+    // Function to update the timer's UI 
     public void UIUpdateTimer()
     {
         timerText.text = $"TIME: {tetrisManager.roundedTimer}"; 
